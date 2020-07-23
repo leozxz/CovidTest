@@ -6,6 +6,6 @@ from django.http import HttpResponse
 def html(request):
     return render(request, 'index.html')
 def edit(request):
-    return render(request, 'templates/edit.html')
+    return render(request, 'edit.html')
 def cad(request):
-    return render(request, 'templates/cad.html')
+    return render(request, 'cad.html')
